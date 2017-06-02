@@ -8,8 +8,9 @@
 	<title>Sign Up Form</title>
 </head>
 <body>
-	<script data-cb-account="5e5c61c3-5967-45ac-a0d3-b28f52048fea" src="https://slack.clearbit.com/v1/notify.js">
-	</script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script data-cb-account="5e5c61c3-5967-45ac-a0d3-b28f52048fea" src="https://slack.clearbit.com/v1/notify.js"></script>
+	<script src="./js/firebaseLogoWrite.js"></script>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<link href="css/normalize.css" rel="stylesheet">
@@ -19,7 +20,7 @@
 		<h1>Register for View Future</h1>
 		<fieldset>
 			<legend><span class="number">1</span>Your basic info</legend> <label for="name">Full Name:</label> <input id="name" name="user_name" type="text"> <label for="mail">Company Email:</label> <input id="mail" name="user_email" type="email">
-		</fieldset><button type="submit">Sign Up</button>
+		</fieldset><button id="submitButton" type="submit">Sign Up</button>
 	</form>
 	<script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js">
 	</script> 
